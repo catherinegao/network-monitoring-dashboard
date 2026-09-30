@@ -21,11 +21,15 @@ Start with fixtures behind GET route handlers. Before implementing edits, choose
 
 ## Start here
 
-Follow [LEARNING_PLAN.md](./LEARNING_PLAN.md). After installing Node.js and Git, create the app in a separate folder with the official Next.js setup command, choosing TypeScript, ESLint, and App Router. Then bring these planning documents into the generated project.
+Start with [Day 1 of the daily tutorials](./TUTORIALS.md#day-1--setup). Use [LEARNING_PLAN.md](./LEARNING_PLAN.md) to track completion. Each tutorial includes steps, examples, checks, and interview questions.
+
+Clone this repository, then scaffold the application inside a `web/` subfolder. This preserves the existing learning documents. Choose TypeScript, ESLint, App Router, a `src/` directory, and the default import alias.
 
 ```sh
-npx create-next-app@latest network-dashboard-app
-cd network-dashboard-app
+git clone https://github.com/catherinegao/network-monitoring-dashboard.git
+cd network-monitoring-dashboard
+npx create-next-app@latest web
+cd web
 npm run dev
 ```
 
